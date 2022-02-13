@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Карточки | Проект 1</title>
+</head>
+<body>
+<div class="container">
+  <div
+      class="slide"
+      style="background-image: url('https://images.unsplash.com/photo-1584566006505-8923576e70d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');"
+  >
+    <h3>Green</h3>
+  </div>
+  <div
+      class="slide"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1587393794661-ef05657e10b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80');
+        "
+  >
+    <h3>Black</h3>
+  </div>
+  <div
+      class="slide"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1618606406106-eeb552f167a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+        "
+  >
+    <h3>Red</h3>
+  </div>
+  <div
+      class="slide active"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1591097349275-4b4b778f274d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+        "
+  >
+    <h3>Purple</h3>
+  </div>
+  <div
+      class="slide"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1599458348985-236f9b110da1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=778&q=80');
+        "
+  >
+    <h3>White</h3>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
